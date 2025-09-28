@@ -2,6 +2,11 @@
 
 Projeto da UC Integração de Sistemas de Informação
 
+Aluno:
+         Hugo Lopes 30516
+
+Professor:
+            Luis Ferreira
 ## Objetivos
 - Integrar doações (cabeçalho + linhas) a partir de XML.
 - Validar por XSD e por Expressões Regulares .
