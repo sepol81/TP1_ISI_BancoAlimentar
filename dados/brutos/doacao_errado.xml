@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Doações xmlns="https://exemplo.org/bancoalimentos/v1">
+	
+   <!-- Doação 1: Supermercado -->
+  <Doação>
+    <Cabeçalho>
+      <IDDaDoação>-2025-000345</IDDaDoação>
+      <Doador>
+        <Nome>Supermercado Nacional, Lda</Nome>
+        <NIF>5012345</NIF>
+        <Email>doacoes@supernac.pt</Email>
+        <Telefone>+351 217 890 123</Telefone>
+        <Tipo>Empresa</Tipo>
+        <Endereço>
+          <Rua>Av. das Compras, 123</Rua>
+          <Cidade>Lisboa</Cidade>
+          <CódigoPostal>1000-001</CódigoPostal>
+        </Endereço>
+      </Doador>
+      <Canal>Parceria Corporativa</Canal>
+      <Data>2025-09-27</Data>
+      <Estado>Recebida</Estado>
+    </Cabeçalho>
+    <Linhas>
+      <Linha>
+        <SKU>ARROZ-1KG</SKU>
+        <Nome>Arroz Agulha 1kg</Nome>
+        <Categoria>Mercearia</Categoria>
+        <CódigoDeBarras>5601234567890</CódigoDeBarras>
+        <Quantidade unidade="kg">50</Quantidade>
+        <Lote>AB123</Lote>
+        <Validade>2026-02-01</Validade>
+        <ValorUnitário>1.20</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>LEITE-1L</SKU>
+        <Nome>Leite UHT Meio Gordo 1L</Nome>
+        <Categoria>Laticínios</Categoria>
+        <CódigoDeBarras>5609876543210</CódigoDeBarras>
+        <Quantidade unidade="L">100</Quantidade>
+        <Lote>LT778</Lote>
+        <Validade>2025-12-31</Validade>
+        <ValorUnitário>0.65</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>ATUM-LATA</SKU>
+        <Nome>Atum em Lata 120g</Nome>
+        <Categoria>Conservas</Categoria>
+        <CódigoDeBarras>5605551234567</CódigoDeBarras>
+        <Quantidade unidade="un">80</Quantidade>
+        <Lote>TC456</Lote>
+        <Validade>2027-03-15</Validade>
+        <ValorUnitário>1.80</ValorUnitário>
+      </Linha>
+    </Linhas>
+  </Doação>
+
+  <!-- Doação 2: Padaria -->
+  <Doação>
+    <Cabeçalho>
+      <IDDaDoação>DN-2025-000346</IDDaDoação>
+      <Doador>
+        <Nome>Padaria Central</Nome>
+        <NIF>509876543</NIF>
+        <Email>geral@padariacentral.pt</Email>
+        <Telefone>+351 912 345 678</Telefone>
+        <Tipo>PME</Tipo>
+        <Endereço>
+          <Rua>Rua do Pão, 45</Rua>
+          <Cidade>Porto</Cidade>
+          <CódigoPostal>4000-123</CódigoPostal>
+        </Endereço>
+      </Doador>
+      <Canal>Doação Diária</Canal>
+      <Data>2025-09-28</Data>
+      <Estado>Processada</Estado>
+    </Cabeçalho>
+    <Linhas>
+      <Linha>
+        <SKU>PAO-FORMA</SKU>
+        <Nome>Pão de Forma Integral</Nome>
+        <Categoria>Padaria</Categoria>
+        <CódigoDeBarras>5604445556667</CódigoDeBarras>
+        <Quantidade unidade="un">30</Quantidade>
+        <Lote>PF789</Lote>
+        <Validade>2025-10-01</Validade>
+        <ValorUnitário>2.10</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>BOLO-CHOC</SKU>
+        <Nome>Bolo de Chocolate</Nome>
+        <Categoria>Pastelaria</Categoria>
+        <CódigoDeBarras>5607778889990</CódigoDeBarras>
+        <Quantidade unidade="un">15</Quantidade>
+        <Lote>BC321</Lote>
+        <Validade>2025-09-30</Validade>
+        <ValorUnitário>3.50</ValorUnitário>
+      </Linha>
+    </Linhas>
+  </Doação>
+
+  <!-- Doação 3: Produtor Agrícola -->
+  <Doação>
+    <Cabeçalho>
+      <IDDaDoação>DN-2025-000347</IDDaDoação>
+      <Doador>
+        <Nome>Quinta dos Sabores</Nome>
+        <NIF>512345678</NIF>
+        <Email>info@quintadossabores.pt</Email>
+        <Telefone>+351 965 432 109</Telefone>
+        <Tipo>Produtor Local</Tipo>
+        <Endereço>
+          <Rua>Estrada Municipal, Km 12</Rua>
+          <Cidade>Alenquer</Cidade>
+          <CódigoPostal>2580-456</CódigoPostal>
+        </Endereço>
+      </Doador>
+      <Canal>Campanha Colheita</Canal>
+      <Data>2025-09-28</Data>
+      <Estado>Pendente</Estado>
+    </Cabeçalho>
+    <Linhas>
+      <Linha>
+        <SKU>TOMATE-KG</SKU>
+        <Nome>Tomate Maduro</Nome>
+        <Categoria>Frutas e Legumes</Categoria>
+        <CódigoDeBarras>5601112223334</CódigoDeBarras>
+        <Quantidade unidade="kg">25</Quantidade>
+        <Lote>COL-0925</Lote>
+        <Validade>2025-10-05</Validade>
+        <ValorUnitário>1.80</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>CEBOLA-KG</SKU>
+        <Nome>Cebola Amarela</Nome>
+        <Categoria>Frutas e Legumes</Categoria>
+        <CódigoDeBarras>5602223334445</CódigoDeBarras>
+        <Quantidade unidade="kg">18</Quantidade>
+        <Lote>COL-0925</Lote>
+        <Validade>2025-10-10</Validade>
+        <ValorUnitário>1.20</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>BATATA-KG</SKU>
+        <Nome>Batata Nacional</Nome>
+        <Categoria>Frutas e Legumes</Categoria>
+        <CódigoDeBarras>5603334445556</CódigoDeBarras>
+        <Quantidade unidade="kg">40</Quantidade>
+        <Lote>COL-0925</Lote>
+        <Validade>2025-10-15</Validade>
+        <ValorUnitário>0.85</ValorUnitário>
+      </Linha>
+    </Linhas>
+  </Doação>
+
+  <!-- Doação 4: Indústria Alimentar -->
+  <Doação>
+    <Cabeçalho>
+      <IDDaDoação>DN-2025-000348</IDDaDoação>
+      <Doador>
+        <Nome>FoodTech Portugal, SA</Nome>
+        <NIF>507654321</NIF>
+        <Email>responsabilidade.social@foodtech.pt</Email>
+        <Telefone>+351 225 678 901</Telefone>
+        <Tipo>Grande Empresa</Tipo>
+        <Endereço>
+          <Rua>Zona Industrial, Lote 5</Rua>
+          <Cidade>Aveiro</Cidade>
+          <CódigoPostal>3800-789</CódigoPostal>
+        </Endereço>
+      </Doador>
+      <Canal>Excedentes Produção</Canal>
+      <Data>2025-09-26</Data>
+      <Estado>Entregue</Estado>
+    </Cabeçalho>
+    <Linhas>
+      <Linha>
+        <SKU>MASS-ESP</SKU>
+        <Nome>Massa Espaguete 500g</Nome>
+        <Categoria>Mercearia</Categoria>
+        <CódigoDeBarras>5606667778889</CódigoDeBarras>
+        <Quantidade unidade="un">120</Quantidade>
+        <Lote>ME555</Lote>
+        <Validade>2026-06-30</Validade>
+        <ValorUnitário>0.95</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>MOL-TOM</SKU>
+        <Nome>Molho de Tomate 350g</Nome>
+        <Categoria>Conservas</Categoria>
+        <CódigoDeBarras>5608889990001</CódigoDeBarras>
+        <Quantidade unidade="un">90</Quantidade>
+        <Lote>MT222</Lote>
+        <Validade>2026-05-20</Validade>
+        <ValorUnitário>1.10</ValorUnitário>
+      </Linha>
+      <Linha>
+        <SKU>COOK-CHOC</SKU>
+        <Nome>Bolachas de Chocolate</Nome>
+        <Categoria>Biscoitos</Categoria>
+        <CódigoDeBarras>5609990001112</CódigoDeBarras>
+        <Quantidade unidade="un">60</Quantidade>
+        <Lote>BC777</Lote>
+        <Validade>2025-11-30</Validade>
+        <ValorUnitário>1.45</ValorUnitário>
+      </Linha>
+    </Linhas>
+  </Doação>
+</Doações>

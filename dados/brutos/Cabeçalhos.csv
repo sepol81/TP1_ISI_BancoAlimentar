@@ -1,0 +1,5 @@
+IDDaDoacao,Canal,Data,Estado,Doador_Nome,Doador_NIF,Doador_Email,Doador_Telefone,Doador_Tipo,Endereco_Rua,Endereco_Cidade,Endereco_CP
+DN-2025-000345,Parceria Corporativa,2025-09-27,Recebida,"Supermercado Nacional, Lda",501234567,doacoes@supernac.pt,+351 217 890 123,Empresa,"Av. das Compras, 123",Lisboa,1000-001
+DN-2025-000346,Doação Diária,2025-09-28,Processada,Padaria Central,509876543,geral@padariacentral.pt,+351 912 345 678,PME,"Rua do Pão, 45",Porto,4000-123
+DN-2025-000347,Campanha Colheita,2025-09-28,Pendente,Quinta dos Sabores,512345678,info@quintadossabores.pt,+351 965 432 109,Produtor Local,"Estrada Municipal, Km 12",Alenquer,2580-456
+DN-2025-000348,Excedentes Produção,2025-09-26,Entregue,"FoodTech Portugal, SA",507654321,responsabilidade.social@foodtech.pt,+351 225 678 901,Grande Empresa,"Zona Industrial, Lote 5",Aveiro,3800-789
